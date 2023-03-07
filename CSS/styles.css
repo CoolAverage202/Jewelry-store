@@ -1,0 +1,135 @@
+/********************classes and Elements******************/
+body{
+  background-color: #EFF5F5;
+  font-family: 'Markazi Text', serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+header {
+  margin-bottom: 2rem;
+}
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  background-color: #B7C4CF;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  border-radius: 1.5rem;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ecf8f8;
+  font-size: 2.5rem;
+}
+section {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  margin-top: 3rem;
+}
+
+ footer div {
+  flex: 1;
+ }
+
+ article p {
+  color:black;
+  font-size: 1.5rem;
+}
+
+article > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div > p {
+  font-weight:200;
+  text-align: right;
+}
+
+hr {
+  border: .0625rem solid black;
+}
+h2 {
+  text-indent: 11.6rem;
+}
+
+article > .indent {
+  text-indent: 8rem;
+}
+
+article > .description {
+  margin: 1rem auto 1rem auto;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+section:nth-of-type(2) {
+  background-color: #EFF5F5;
+}
+
+ article > img:hover {
+  cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+/**************** ID's *********************************************/
+#promoTop {
+  border-radius: 1.5rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.5rem;
+  background-image: url("https://www.diamonds717.com/wp-content/uploads/2018/02/engagement-banner-1024x313.jpg");
+  background-color: #cccccc;
+  background-repeat: repeat-x;
+}
+
+#promoTop h1 {
+  margin-left: 1rem
+}
+
+#promoTop p {
+  margin-left: 1rem;
+}
+
+#promoBottom > article {
+  background-color: #a1cbe6;
+  border-radius: 1.5rem;
+}
+
